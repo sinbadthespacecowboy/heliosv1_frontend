@@ -8,6 +8,7 @@ __pycache__/
 *.pyc
 .venv
 .env
+.env.local
 
 # OS
 .DS_Store
