@@ -7,7 +7,7 @@ import Register from './Register.tsx'
 import { AuthProvider, useAuth } from './contexts/AuthContext'
 
 // Backend URL - update this to your Jetson's IP or tunnel URL
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://10.104.2.157:8000'
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://api.narsilsystems.com'
 
 function Root() {
   const { isAuthenticated, isLoading } = useAuth()
